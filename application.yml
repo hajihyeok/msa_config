@@ -34,12 +34,12 @@ spring:
         # 콘솔출력
         show-sql: true
         properties:
-        hibernate:
-            # h2
-            # dialect: org.hibernate.dialect.H2Dialect
-            # mariadb
-            dialect: org.hibernate.dialect.MariaDBDialect
-            format_sql: true
+            hibernate:
+                # h2
+                # dialect: org.hibernate.dialect.H2Dialect
+                # mariadb
+                dialect: org.hibernate.dialect.MariaDBDialect
+                format_sql: true
 
     data:
         redis:
